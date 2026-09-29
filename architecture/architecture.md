@@ -1,5 +1,7 @@
 # Architecture
 
+![Production observability platform architecture](architecture.png)
+
 ## Signal flow
 
 ```mermaid

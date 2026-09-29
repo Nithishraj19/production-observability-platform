@@ -6,6 +6,8 @@ A portfolio reference project for monitoring Linux hosts, Docker containers, Kub
 
 Metrics flow from hosts and workloads through exporters and application instrumentation to Prometheus. Grafana queries Prometheus for dashboards; Prometheus evaluates alert rules and sends firing alerts to Alertmanager, which routes notifications to configured receivers.
 
+![Production observability platform architecture](architecture/architecture.png)
+
 See [architecture/architecture.md](architecture/architecture.md) for boundaries and the [monitoring guides](monitoring/) for coverage. AWS services are an integration reference only; this repository does not provision AWS infrastructure.
 
 ## Local Docker path
