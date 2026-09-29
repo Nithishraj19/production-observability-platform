@@ -1,5 +1,7 @@
-# AWS Architecture Icons
+# Diagram icon assets
 
-The AWS service icons in this directory are official AWS Architecture Icons. They are included only for the AWS integration reference in `../architecture.png`; the project does not provision those AWS services.
+- The AWS service icons are official AWS Architecture Icons for EC2, EKS, Elastic Load Balancing, Auto Scaling, RDS, CloudWatch, and IAM. AWS makes these assets available for architecture diagrams through its [icon library](https://aws.amazon.com/architecture/icons/).
+- The Prometheus logo comes from `prometheus/prometheus/documentation/images/prometheus-logo.svg`.
+- The Grafana mark comes from `grafana/grafana/public/img/grafana_icon.svg`.
 
-Source and usage information: [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/). Package release: 2026-07-31.
+These assets appear in `../architecture.png`. AWS services are reference integrations only; this project does not provision them.
